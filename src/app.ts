@@ -1,13 +1,13 @@
 // 引入koa
 import Koa from "koa";
 // 引入路由
-import { testRouter } from "./routers/index";
+import useRoutes from "./routers/index";
 
 // 创建koa实例
 const app = new Koa();
 
 // 使用路由
-app.use(testRouter.routes());
+useRoutes(app);
 
 // 监听端口
 app.listen(8081, () => {
