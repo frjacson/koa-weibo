@@ -1,3 +1,3 @@
-## 新版服务器
+## koa2-weibo
 
 架构：koa2 + ts + mysql + redis + pm2
